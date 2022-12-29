@@ -108,11 +108,11 @@ hook OnPlayerEnterCheckpoint(playerid)
         {
             CheckEnterPointDelivery[playerid] = 0;
             //GivePlayerMoneyEx(playerid, givemoney);
-            Character[player][Cash] += givemoney;
+            Character[playerid][Cash] += givemoney;
 
-            ApplyAnimation(playerid, "BOMBER", "bom_plant", 4.1, 0, 0, 0, 0, 0);
+            ApplyAnimation(playerid, "ryder", "van_throw", 4.1, 0, 0, 0, 0, 0);
             ApplyAnimation(playerid, "null", "", 4.1, 0, 0, 0, 0, 0);
-            ApplyAnimation(playerid, "BOMBER", "bom_plant", 4.1, 0, 0, 0, 0, 0);
+            ApplyAnimation(playerid, "ryder", "van_throw", 4.1, 0, 0, 0, 0, 0);
 
             //format(string, sizeof(string), "~g~Pay~n~~w~ %d", FormatNumber(givemoney));
             GameTextForPlayer(playerid, string, 5000, 1);
