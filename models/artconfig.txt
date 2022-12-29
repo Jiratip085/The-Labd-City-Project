@@ -1,0 +1,7 @@
+AddCharModel(305, 25000, "lvpdpc2.dff", "lvpdpc2.txd");
+AddCharModel(305, 25001, "lapdpd2.dff", "lapdpd2.txd");
+
+AddCharModel(19, 25002, "skin.dff", "skin.txd");
+AddCharModel(171, 25003, "jesus.dff", "jesus.txd");
+
+AddSimpleModel(-1,19379, -2000, "wallzzz.dff", "wallzzz.txd");
