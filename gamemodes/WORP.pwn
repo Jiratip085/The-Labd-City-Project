@@ -942,7 +942,6 @@ new Float:NoobSpawns[][4] =
 #include "modules/cmd/player/cmdplayer.pwn"
 #include "modules/cmd/player/cmdpolice.pwn"
 #include "modules/cmd/admin/cmdadmin.pwn"
-#include "modules/cmd/admin/cmdadminmenu.pwn"
 #include "modules/cmd/admin/cmdserver.pwn"
 
 #include "modules/job/trucker.pwn"
@@ -2680,6 +2679,7 @@ public GeneralListener()
 
 public OnPlayerEnterCheckpoint(playerid)
 {
+
 	if(EnterCheckPointJob[playerid] == 1)
 	{
 		EnterCheckPointJob[playerid] = 0;
@@ -9631,8 +9631,4 @@ GetVehicleModelByName(const name[])
 		}
 	}
 	return 0;
-}
-randomEx(min, max)
-{
-    return random(max + 1 - min) + min;
 }

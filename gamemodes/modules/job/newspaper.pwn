@@ -3,6 +3,7 @@
 new CheckEnterPointDelivery[MAX_PLAYERS];
 new StartJobNewpaper[MAX_PLAYERS];
 
+new NewsPrice = random(100) + 25;
 
 new Float:Paper[15][3] =
 {
@@ -27,8 +28,8 @@ hook OnGameModeInit()
 	CreateDynamicPickup(1239, 23, -185.4342,1210.5822,19.6668);//สมัครงาน
 	CreateDynamic3DTextLabel("[Newspaper Delivery]\n{FFFFFF}กด 'Y' เพื่อสมัครงาน", COLOR_YELLOW, -185.4342,1210.5822,19.6668, 2.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, -1);
 	
-    CreateDynamicPickup(1239, 23, -190.0260,1209.6532,19.7422);//เริ่มงาน
-	CreateDynamic3DTextLabel("[Newspaper Delivery]\n{FFFFFF}กด 'Y' เพื่อ เริ่ม/เลิก งาน", COLOR_YELLOW, -190.0260,1209.6532,19.7422, 2.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, -1);
+    CreateDynamicPickup(2055, 23, -190.0260,1209.6532,19.7422);//เริ่มงาน
+	CreateDynamic3DTextLabel("[Newspaper Delivery]\n{FFFFFF}กด 'Y' เพื่อหยิบหนังสือพิมพ์", COLOR_YELLOW, -190.0260,1209.6532,19.7422, 2.0, INVALID_PLAYER_ID, INVALID_VEHICLE_ID, 0, -1);
 
     return 1;
 }
@@ -65,14 +66,14 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
             if(StartJobNewpaper[playerid] == 0)
             {
                 
-                SendClientMessage(playerid, COLOR_GREY, "- ใช้ Bike ในการเริ่มงาน");
-                GameTextForPlayer(playerid, "~w~Newspaper Delivery~y~ Start", 5000, 1) ;
+                SendClientMessage(playerid, COLOR_GREY, "- ใช้ Bike ในการไปส่งหนังสือพิมพ์");
+                GameTextForPlayer(playerid, "~w~Newspaper Delivery~G~ Start", 3000, 1) ;
                 StartJobNewpaper[playerid] = 1;
             }
             else if(StartJobNewpaper[playerid] == 1)
             {
                 DisablePlayerCheckpoint(playerid);
-                GameTextForPlayer(playerid, "~w~Newspaper Delivery~r~ Cancel", 5000, 1) ;
+                GameTextForPlayer(playerid, "~w~Newspaper Delivery~r~ Cancel", 3000, 1) ;
                 StartJobNewpaper[playerid] = 0;
                 CheckEnterPointDelivery[playerid] = 0;
             }
@@ -94,8 +95,7 @@ hook OnPlayerEnterCheckpoint(playerid)
 {
     if(Character[playerid][Job] == 1)
     {
-
-        new string[128], givemoney = randomEx(75,125);
+        new string[128]);
         DisablePlayerCheckpoint(playerid);
         
         if (IsPlayerInAnyVehicle(playerid))
@@ -104,22 +104,25 @@ hook OnPlayerEnterCheckpoint(playerid)
             return SendClientMessage(playerid, COLOR_GREY, "- ต้องไม่อยู่บนยานพาหนะ!");
         }
 
-        if(Character[playerid][Job] == 1 && CheckEnterPointDelivery[playerid] == 1) 
+        if(CheckEnterPointDelivery[playerid] == 1) 
         {
             CheckEnterPointDelivery[playerid] = 0;
-            //GivePlayerMoneyEx(playerid, givemoney);
-            Character[playerid][Cash] += givemoney;
+            GivePlayerMoneyEx(playerid, NewsPrice);
 
             ApplyAnimation(playerid, "ryder", "van_throw", 4.1, 0, 0, 0, 0, 0);
             ApplyAnimation(playerid, "null", "", 4.1, 0, 0, 0, 0, 0);
             ApplyAnimation(playerid, "ryder", "van_throw", 4.1, 0, 0, 0, 0, 0);
 
-            //format(string, sizeof(string), "~g~Pay~n~~w~ %d", FormatNumber(givemoney));
-            GameTextForPlayer(playerid, string, 5000, 1);
+            format(string, sizeof(string), "~g~Pay~n~~w~ %d", FormatNumber(NewsPrice));
+			PlayerPlaySound(playerid, 1138, 0.0, 0.0, 0.0);
+            GameTextForPlayer(playerid, string, 3000, 1);
+            return 1;
         }
+		
     }
     return 1;
 }
+
 hook OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
 {
     if(Character[playerid][Job] == 1 && GetVehicleModel(vehicleid) == 509)
@@ -127,7 +130,7 @@ hook OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
         if(StartJobNewpaper[playerid] == 1 && CheckEnterPointDelivery[playerid] == 0)
         {
             StartPlayerCheckPointDelivery1(playerid);
-            GameTextForPlayer(playerid, "~w~Newspaper Delivery~g~ Mark", 5000, 1) ;
+            GameTextForPlayer(playerid, "~w~Newspaper Delivery~y~ Mark", 3000, 1) ;
         }
     }
     return 1;
