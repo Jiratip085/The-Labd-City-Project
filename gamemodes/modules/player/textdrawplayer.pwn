@@ -12,11 +12,7 @@ new PlayerBar:TASERBARAG[MAX_PLAYERS] = {INVALID_PLAYER_BAR_ID, ...};
 
 new PlayerText:Ping[MAX_PLAYERS][7];
 
-Inventory(playerid)
-{
 
-    return 1;
-}
 LoadHudShowPlayerTextDraw(playerid)
 {
     Ping[playerid][0] = CreatePlayerTextDraw(playerid, 617.333129, 106.222206, "box");

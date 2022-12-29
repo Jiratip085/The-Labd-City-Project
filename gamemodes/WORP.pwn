@@ -957,7 +957,6 @@ new Float:NoobSpawns[][4] =
 
 #include "/modules/server/dialog.pwn"
 #include "/modules/server/stock.pwn"
-#include "/modules/server/inventory.pwn"
 
 //#include "modules/player/object_dynamic.pwn"
 //#include "/modules/server/bot.pwn"
@@ -5041,11 +5040,12 @@ public Character_Load(playerid)
 	format(str, sizeof(str), "[คุณได้เลือกเข้าสู่ระบบตัวละคร: %s]", GetRoleplayName(playerid));
 	SendClientMessage(playerid, COLOR_PALEGOLDENROD, str);
 
-	/*if(Character[playerid][Whitelist] == 0)
+	if(Character[playerid][Whitelist] == 0)
 	{
 		Dialog_Show(playerid, Whitelist, DIALOG_STYLE_MSGBOX, "{00FF00}[Whitelist]","{FFFFFF}ตัวละครของคุณไม่มี Whitelist โปรดติดต่อผู้ดูแลเซิร์ฟเวอณ์ได้ที่ Discord", "ตกลง", "");
 		SetTimerEx("KickPlayerDelayed", time, false, "d", playerid);
-	}*/
+		return 1;
+	}
 
 	TogglePlayerSpectating(playerid, false);
 
@@ -7958,11 +7958,12 @@ Dialog:SPAWN_SELECT(playerid, response, listitem, inputtext[])
        	Character[playerid][Skin] = GetPlayerSkin(playerid);
 		InteriorTimer(playerid);
 
-		/*if(Character[playerid][Whitelist] == 0)
+		if(Character[playerid][Whitelist] == 0)
 		{
 			Dialog_Show(playerid, Whitelist, DIALOG_STYLE_MSGBOX, "{00FF00}[Whitelist]","{FFFFFF}ตัวละครของคุณไม่มี Whitelist โปรดติดต่อผู้ดูแลเซิร์ฟเวอณ์ได้ที่ Discord", "ตกลง", "");
 			SetTimerEx("KickPlayerDelayed", time, false, "d", playerid);
-		}*/
+			return 1;
+		}
 
 		//TextDrawShowForPlayer(playerid, Clock);
 
@@ -7975,11 +7976,12 @@ Dialog:SPAWN_SELECT(playerid, response, listitem, inputtext[])
 	        Character[playerid][ConfirmChar] = 1;
 	        Character_Save(playerid);
 
-			/*if(Character[playerid][Whitelist] == 0)
+			if(Character[playerid][Whitelist] == 0)
 			{
 				Dialog_Show(playerid, Whitelist, DIALOG_STYLE_MSGBOX, "{00FF00}[Whitelist]","{FFFFFF}ตัวละครของคุณไม่มี Whitelist โปรดติดต่อผู้ดูแลเซิร์ฟเวอณ์ได้ที่ Discord", "ตกลง", "");
 				SetTimerEx("KickPlayerDelayed", time, false, "d", playerid);
-			}*/
+				return 1;
+			}
 		}
 	}
     else

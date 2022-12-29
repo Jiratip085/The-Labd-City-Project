@@ -1,0 +1,1156 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:00:56] filterscripts = ""  (string)
+[14:00:56] 
+[14:00:56] Server Plugins
+[14:00:56] --------------
+[14:00:56]  Loading plugin: mysql
+[14:00:56]  >> plugin.mysql: R41-4 successfully loaded.
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: sscanf
+[14:00:56] 
+
+[14:00:56]  ===============================
+
+[14:00:56]       sscanf plugin loaded.     
+
+[14:00:56]    (c) 2009 Alex "Y_Less" Cole
+
+[14:00:56]    0.3d-R2 500 Players "dnee"
+
+[14:00:56]  ===============================
+
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: crashdetect
+[14:00:56]   CrashDetect v4.15.1 is OK.
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: streamer
+[14:00:56] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: Whirlpool
+[14:00:56]  
+[14:00:56]  ==================
+[14:00:56]  
+[14:00:56]   Whirlpool loaded
+[14:00:56]  
+[14:00:56]  ==================
+[14:00:56]  
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: CEFix
+[14:00:56]  =======================================
+[14:00:56]   ** Color Embed Fix for Thai language V2.0
+[14:00:56]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:00:56]  =======================================
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: discord-connector
+[14:00:56]  >> plugin.dc-connector: bot token not specified in server config.
+[14:00:56]   Failed.
+[14:00:56]  Loading plugin: MapAndreas
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: TDE
+[14:00:56] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: tsc
+[14:00:56]  >> plugin.TSConnector: v1.3 loaded.
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: regex
+[14:00:56] 
+
+[14:00:56] ______________________________________
+
+[14:00:56]  Regular Expression Plugin v0.2.1 loaded
+[14:00:56] ______________________________________
+
+[14:00:56]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:00:56] ______________________________________
+
+[14:00:56]   Loaded.
+[14:00:56]  Loading plugin: nativechecker
+[14:00:56]   Loaded.
+[14:00:56]  Loaded 11 plugins.
+
+[14:00:56] 
+[14:00:56] Filterscripts
+[14:00:56] ---------------
+[14:00:56]   Loaded 0 filterscripts.
+
+[14:00:57]  
+[14:00:57]  
+[14:00:57]  
+[14:00:57]  ======================================= 
+[14:00:57]  |                                     | 
+[14:00:57]  |        YSI version 3.09.0684        | 
+[14:00:57]  |        By Alex "Y_Less" Cole        | 
+[14:00:57]  |                                     | 
+[14:00:57]  ======================================= 
+[14:00:57]  
+[14:00:57]  
+[14:00:57]  
+[14:00:57] [SQL] Connection to "127.0.0.1" passed!
+[14:01:03] 14:01:00
+[14:01:03] ------------------------------------------------------------------------------
+[14:01:03] |        The Land Cityy - Started!		|
+[14:01:03] ------------------------------------------------------------------------------
+[14:01:03] 
+----------------------------------
+[14:01:03]  Discord Console by Inferno
+[14:01:03] ----------------------------------
+
+[14:01:03] Number of vehicle models: 0
+[14:01:03] Setting server password to: "268426"
+[14:01:03] hostname = "SAMP : The Land City"  (string)
+[14:01:03] [MYSQL]: Server Settings Loaded.
+[14:01:03] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 3 Products have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[14:01:03] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[14:01:52] [connection] 124.121.173.178:51789 requests connection cookie.
+[14:01:53] [connection] incoming connection: 124.121.173.178:51789 id: 0
+[14:01:53] [join] HugoWingin has joined the server (0:124.121.173.178)
+[14:01:56] HugoWingin: Logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:04:31] filterscripts = ""  (string)
+[14:04:31] 
+[14:04:31] Server Plugins
+[14:04:31] --------------
+[14:04:31]  Loading plugin: mysql
+[14:04:31]  >> plugin.mysql: R41-4 successfully loaded.
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: sscanf
+[14:04:31] 
+
+[14:04:31]  ===============================
+
+[14:04:31]       sscanf plugin loaded.     
+
+[14:04:31]    (c) 2009 Alex "Y_Less" Cole
+
+[14:04:31]    0.3d-R2 500 Players "dnee"
+
+[14:04:31]  ===============================
+
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: crashdetect
+[14:04:31]   CrashDetect v4.15.1 is OK.
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: streamer
+[14:04:31] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: Whirlpool
+[14:04:31]  
+[14:04:31]  ==================
+[14:04:31]  
+[14:04:31]   Whirlpool loaded
+[14:04:31]  
+[14:04:31]  ==================
+[14:04:31]  
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: CEFix
+[14:04:31]  =======================================
+[14:04:31]   ** Color Embed Fix for Thai language V2.0
+[14:04:31]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:04:31]  =======================================
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: discord-connector
+[14:04:31]  >> plugin.dc-connector: bot token not specified in server config.
+[14:04:31]   Failed.
+[14:04:31]  Loading plugin: MapAndreas
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: TDE
+[14:04:31] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: tsc
+[14:04:31]  >> plugin.TSConnector: v1.3 loaded.
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: regex
+[14:04:31] 
+
+[14:04:31] ______________________________________
+
+[14:04:31]  Regular Expression Plugin v0.2.1 loaded
+[14:04:31] ______________________________________
+
+[14:04:31]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:04:31] ______________________________________
+
+[14:04:31]   Loaded.
+[14:04:31]  Loading plugin: nativechecker
+[14:04:31]   Loaded.
+[14:04:31]  Loaded 11 plugins.
+
+[14:04:31] 
+[14:04:31] Filterscripts
+[14:04:31] ---------------
+[14:04:31]   Loaded 0 filterscripts.
+
+[14:04:32]  
+[14:04:32]  
+[14:04:32]  
+[14:04:32]  ======================================= 
+[14:04:32]  |                                     | 
+[14:04:32]  |        YSI version 3.09.0684        | 
+[14:04:32]  |        By Alex "Y_Less" Cole        | 
+[14:04:32]  |                                     | 
+[14:04:32]  ======================================= 
+[14:04:32]  
+[14:04:32]  
+[14:04:32]  
+[14:04:32] [SQL] Connection to "127.0.0.1" passed!
+[14:04:38] 14:04:00
+[14:04:38] ------------------------------------------------------------------------------
+[14:04:38] |        The Land Cityy - Started!		|
+[14:04:38] ------------------------------------------------------------------------------
+[14:04:38] 
+----------------------------------
+[14:04:38]  Discord Console by Inferno
+[14:04:38] ----------------------------------
+
+[14:04:38] Number of vehicle models: 0
+[14:04:38] Setting server password to: "268426"
+[14:04:38] hostname = "SAMP : The Land City"  (string)
+[14:04:38] [MYSQL]: Server Settings Loaded.
+[14:04:38] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 3 Products have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[14:04:38] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[14:04:58] [connection] 124.121.173.178:51807 requests connection cookie.
+[14:04:59] [connection] incoming connection: 124.121.173.178:51807 id: 0
+[14:04:59] [join] HugoWingin has joined the server (0:124.121.173.178)
+[14:05:08] HugoWingin: Logged in.
+[14:05:30] Vehicle ID: 30 just travelled more than 15 meters with no one in it! Resetting its position.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:07:25] filterscripts = ""  (string)
+[14:07:25] 
+[14:07:25] Server Plugins
+[14:07:25] --------------
+[14:07:25]  Loading plugin: mysql
+[14:07:25]  >> plugin.mysql: R41-4 successfully loaded.
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: sscanf
+[14:07:25] 
+
+[14:07:25]  ===============================
+
+[14:07:25]       sscanf plugin loaded.     
+
+[14:07:25]    (c) 2009 Alex "Y_Less" Cole
+
+[14:07:25]    0.3d-R2 500 Players "dnee"
+
+[14:07:25]  ===============================
+
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: crashdetect
+[14:07:25]   CrashDetect v4.15.1 is OK.
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: streamer
+[14:07:25] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: Whirlpool
+[14:07:25]  
+[14:07:25]  ==================
+[14:07:25]  
+[14:07:25]   Whirlpool loaded
+[14:07:25]  
+[14:07:25]  ==================
+[14:07:25]  
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: CEFix
+[14:07:25]  =======================================
+[14:07:25]   ** Color Embed Fix for Thai language V2.0
+[14:07:25]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:07:25]  =======================================
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: discord-connector
+[14:07:25]  >> plugin.dc-connector: bot token not specified in server config.
+[14:07:25]   Failed.
+[14:07:25]  Loading plugin: MapAndreas
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: TDE
+[14:07:25] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: tsc
+[14:07:25]  >> plugin.TSConnector: v1.3 loaded.
+[14:07:25]   Loaded.
+[14:07:25]  Loading plugin: regex
+[14:07:26] 
+
+[14:07:26] ______________________________________
+
+[14:07:26]  Regular Expression Plugin v0.2.1 loaded
+[14:07:26] ______________________________________
+
+[14:07:26]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:07:26] ______________________________________
+
+[14:07:26]   Loaded.
+[14:07:26]  Loading plugin: nativechecker
+[14:07:26]   Loaded.
+[14:07:26]  Loaded 11 plugins.
+
+[14:07:26] 
+[14:07:26] Filterscripts
+[14:07:26] ---------------
+[14:07:26]   Loaded 0 filterscripts.
+
+[14:07:26]  
+[14:07:26]  
+[14:07:26]  
+[14:07:26]  ======================================= 
+[14:07:26]  |                                     | 
+[14:07:26]  |        YSI version 3.09.0684        | 
+[14:07:26]  |        By Alex "Y_Less" Cole        | 
+[14:07:26]  |                                     | 
+[14:07:26]  ======================================= 
+[14:07:26]  
+[14:07:26]  
+[14:07:26]  
+[14:07:26] [SQL] Connection to "127.0.0.1" passed!
+[14:07:32] 14:07:00
+[14:07:33] ------------------------------------------------------------------------------
+[14:07:33] |        The Land Cityy - Started!		|
+[14:07:33] ------------------------------------------------------------------------------
+[14:07:33] 
+----------------------------------
+[14:07:33]  Discord Console by Inferno
+[14:07:33] ----------------------------------
+
+[14:07:33] Number of vehicle models: 0
+[14:07:33] Setting server password to: "268426"
+[14:07:33] hostname = "SAMP : The Land City"  (string)
+[14:07:33] [MYSQL]: Server Settings Loaded.
+[14:07:33] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 3 Products have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[14:07:33] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[14:07:54] [connection] 124.121.173.178:50391 requests connection cookie.
+[14:07:55] [connection] incoming connection: 124.121.173.178:50391 id: 0
+[14:07:55] [join] HugoWingin has joined the server (0:124.121.173.178)
+[14:07:58] HugoWingin: Logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:10:32] filterscripts = ""  (string)
+[14:10:32] 
+[14:10:32] Server Plugins
+[14:10:32] --------------
+[14:10:32]  Loading plugin: mysql
+[14:10:32]  >> plugin.mysql: R41-4 successfully loaded.
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: sscanf
+[14:10:32] 
+
+[14:10:32]  ===============================
+
+[14:10:32]       sscanf plugin loaded.     
+
+[14:10:32]    (c) 2009 Alex "Y_Less" Cole
+
+[14:10:32]    0.3d-R2 500 Players "dnee"
+
+[14:10:32]  ===============================
+
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: crashdetect
+[14:10:32]   CrashDetect v4.15.1 is OK.
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: streamer
+[14:10:32] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: Whirlpool
+[14:10:32]  
+[14:10:32]  ==================
+[14:10:32]  
+[14:10:32]   Whirlpool loaded
+[14:10:32]  
+[14:10:32]  ==================
+[14:10:32]  
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: CEFix
+[14:10:32]  =======================================
+[14:10:32]   ** Color Embed Fix for Thai language V2.0
+[14:10:32]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:10:32]  =======================================
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: discord-connector
+[14:10:32]  >> plugin.dc-connector: bot token not specified in server config.
+[14:10:32]   Failed.
+[14:10:32]  Loading plugin: MapAndreas
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: TDE
+[14:10:32] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: tsc
+[14:10:32]  >> plugin.TSConnector: v1.3 loaded.
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: regex
+[14:10:32] 
+
+[14:10:32] ______________________________________
+
+[14:10:32]  Regular Expression Plugin v0.2.1 loaded
+[14:10:32] ______________________________________
+
+[14:10:32]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:10:32] ______________________________________
+
+[14:10:32]   Loaded.
+[14:10:32]  Loading plugin: nativechecker
+[14:10:32]   Loaded.
+[14:10:32]  Loaded 11 plugins.
+
+[14:10:32] 
+[14:10:32] Filterscripts
+[14:10:32] ---------------
+[14:10:33]   Loaded 0 filterscripts.
+
+[14:10:33]  
+[14:10:33]  
+[14:10:33]  
+[14:10:33]  ======================================= 
+[14:10:33]  |                                     | 
+[14:10:33]  |        YSI version 3.09.0684        | 
+[14:10:33]  |        By Alex "Y_Less" Cole        | 
+[14:10:33]  |                                     | 
+[14:10:33]  ======================================= 
+[14:10:33]  
+[14:10:33]  
+[14:10:33]  
+[14:10:33] [SQL] Connection to "127.0.0.1" passed!
+[14:10:39] 14:10:00
+[14:10:39] ------------------------------------------------------------------------------
+[14:10:39] |        The Land Cityy - Started!		|
+[14:10:39] ------------------------------------------------------------------------------
+[14:10:39] 
+----------------------------------
+[14:10:39]  Discord Console by Inferno
+[14:10:39] ----------------------------------
+
+[14:10:39] Number of vehicle models: 0
+[14:10:39] Setting server password to: "268426"
+[14:10:39] hostname = "SAMP : The Land City"  (string)
+[14:10:39] [MYSQL]: Server Settings Loaded.
+[14:10:39] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[14:10:39] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[14:10:39] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[14:10:39] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[14:10:40] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[14:10:40] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[14:10:40] [MYSQL]: 3 Products have been successfully loaded from the database.
+[14:10:40] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[14:10:40] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[14:10:40] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[14:10:40] [connection] 124.121.173.178:64509 requests connection cookie.
+[14:10:41] [connection] incoming connection: 124.121.173.178:64509 id: 0
+[14:10:42] [join] Hugo_Wingin has joined the server (0:124.121.173.178)
+[14:10:42] [part] Hugo_Wingin has left the server (0:2)
+[14:11:03] [connection] 124.121.173.178:54095 requests connection cookie.
+[14:11:04] [connection] incoming connection: 124.121.173.178:54095 id: 0
+[14:11:05] [join] HugoWingin has joined the server (0:124.121.173.178)
+[14:11:08] HugoWingin: Logged in.
+[14:11:48] HugoWingin: Logout.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:12:55] filterscripts = ""  (string)
+[14:12:55] 
+[14:12:55] Server Plugins
+[14:12:55] --------------
+[14:12:55]  Loading plugin: mysql
+[14:12:55]  >> plugin.mysql: R41-4 successfully loaded.
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: sscanf
+[14:12:55] 
+
+[14:12:55]  ===============================
+
+[14:12:55]       sscanf plugin loaded.     
+
+[14:12:55]    (c) 2009 Alex "Y_Less" Cole
+
+[14:12:55]    0.3d-R2 500 Players "dnee"
+
+[14:12:55]  ===============================
+
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: crashdetect
+[14:12:55]   CrashDetect v4.15.1 is OK.
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: streamer
+[14:12:55] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: Whirlpool
+[14:12:55]  
+[14:12:55]  ==================
+[14:12:55]  
+[14:12:55]   Whirlpool loaded
+[14:12:55]  
+[14:12:55]  ==================
+[14:12:55]  
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: CEFix
+[14:12:55]  =======================================
+[14:12:55]   ** Color Embed Fix for Thai language V2.0
+[14:12:55]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:12:55]  =======================================
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: discord-connector
+[14:12:55]  >> plugin.dc-connector: bot token not specified in server config.
+[14:12:55]   Failed.
+[14:12:55]  Loading plugin: MapAndreas
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: TDE
+[14:12:55] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: tsc
+[14:12:55]  >> plugin.TSConnector: v1.3 loaded.
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: regex
+[14:12:55] 
+
+[14:12:55] ______________________________________
+
+[14:12:55]  Regular Expression Plugin v0.2.1 loaded
+[14:12:55] ______________________________________
+
+[14:12:55]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:12:55] ______________________________________
+
+[14:12:55]   Loaded.
+[14:12:55]  Loading plugin: nativechecker
+[14:12:55]   Loaded.
+[14:12:55]  Loaded 11 plugins.
+
+[14:12:55] 
+[14:12:55] Filterscripts
+[14:12:55] ---------------
+[14:12:55]   Loaded 0 filterscripts.
+
+[14:12:55]  
+[14:12:55]  
+[14:12:55]  
+[14:12:55]  ======================================= 
+[14:12:55]  |                                     | 
+[14:12:55]  |        YSI version 3.09.0684        | 
+[14:12:55]  |        By Alex "Y_Less" Cole        | 
+[14:12:55]  |                                     | 
+[14:12:55]  ======================================= 
+[14:12:55]  
+[14:12:55]  
+[14:12:55]  
+[14:12:56] [SQL] Connection to "127.0.0.1" passed!
+[14:13:02] 14:13:00
+[14:13:02] ------------------------------------------------------------------------------
+[14:13:02] |        The Land Cityy - Started!		|
+[14:13:02] ------------------------------------------------------------------------------
+[14:13:02] 
+----------------------------------
+[14:13:02]  Discord Console by Inferno
+[14:13:02] ----------------------------------
+
+[14:13:02] Number of vehicle models: 0
+[14:13:02] Setting server password to: "268426"
+[14:13:02] hostname = "SAMP : The Land City"  (string)
+[14:13:02] [MYSQL]: Server Settings Loaded.
+[14:13:02] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 3 Products have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[14:13:02] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[14:13:05] [connection] 124.121.173.178:57001 requests connection cookie.
+[14:13:06] [connection] incoming connection: 124.121.173.178:57001 id: 0
+[14:13:06] [join] HugoWingin has joined the server (0:124.121.173.178)
+[14:13:11] HugoWingin: Logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:15:27] filterscripts = ""  (string)
+[14:15:27] 
+[14:15:27] Server Plugins
+[14:15:27] --------------
+[14:15:27]  Loading plugin: mysql
+[14:15:27]  >> plugin.mysql: R41-4 successfully loaded.
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: sscanf
+[14:15:27] 
+
+[14:15:27]  ===============================
+
+[14:15:27]       sscanf plugin loaded.     
+
+[14:15:27]    (c) 2009 Alex "Y_Less" Cole
+
+[14:15:27]    0.3d-R2 500 Players "dnee"
+
+[14:15:27]  ===============================
+
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: crashdetect
+[14:15:27]   CrashDetect v4.15.1 is OK.
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: streamer
+[14:15:27] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: Whirlpool
+[14:15:27]  
+[14:15:27]  ==================
+[14:15:27]  
+[14:15:27]   Whirlpool loaded
+[14:15:27]  
+[14:15:27]  ==================
+[14:15:27]  
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: CEFix
+[14:15:27]  =======================================
+[14:15:27]   ** Color Embed Fix for Thai language V2.0
+[14:15:27]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:15:27]  =======================================
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: discord-connector
+[14:15:27]  >> plugin.dc-connector: bot token not specified in server config.
+[14:15:27]   Failed.
+[14:15:27]  Loading plugin: MapAndreas
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: TDE
+[14:15:27] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: tsc
+[14:15:27]  >> plugin.TSConnector: v1.3 loaded.
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: regex
+[14:15:27] 
+
+[14:15:27] ______________________________________
+
+[14:15:27]  Regular Expression Plugin v0.2.1 loaded
+[14:15:27] ______________________________________
+
+[14:15:27]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:15:27] ______________________________________
+
+[14:15:27]   Loaded.
+[14:15:27]  Loading plugin: nativechecker
+[14:15:27]   Loaded.
+[14:15:27]  Loaded 11 plugins.
+
+[14:15:27] 
+[14:15:27] Filterscripts
+[14:15:27] ---------------
+[14:15:27]   Loaded 0 filterscripts.
+
+[14:15:27]  
+[14:15:27]  
+[14:15:27]  
+[14:15:27]  ======================================= 
+[14:15:27]  |                                     | 
+[14:15:27]  |        YSI version 3.09.0684        | 
+[14:15:27]  |        By Alex "Y_Less" Cole        | 
+[14:15:27]  |                                     | 
+[14:15:27]  ======================================= 
+[14:15:27]  
+[14:15:27]  
+[14:15:27]  
+[14:15:27] [SQL] Connection to "127.0.0.1" passed!
+[14:15:34] 14:15:00
+[14:15:34] ------------------------------------------------------------------------------
+[14:15:34] |        The Land Cityy - Started!		|
+[14:15:34] ------------------------------------------------------------------------------
+[14:15:34] 
+----------------------------------
+[14:15:34]  Discord Console by Inferno
+[14:15:34] ----------------------------------
+
+[14:15:34] Number of vehicle models: 0
+[14:15:34] Setting server password to: "268426"
+[14:15:34] hostname = "SAMP : The Land City"  (string)
+[14:15:34] [MYSQL]: Server Settings Loaded.
+[14:15:34] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 3 Products have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[14:15:34] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[14:16:12] [connection] 124.121.173.178:61138 requests connection cookie.
+[14:16:13] [connection] incoming connection: 124.121.173.178:61138 id: 0
+[14:16:13] [join] Hugo_Wingin has joined the server (0:124.121.173.178)
+[14:16:13] [part] Hugo_Wingin has left the server (0:2)
+[14:16:45] [connection] 124.121.173.178:50740 requests connection cookie.
+[14:16:46] [connection] incoming connection: 124.121.173.178:50740 id: 0
+[14:16:46] [join] HugoWingin has joined the server (0:124.121.173.178)
+[14:16:50] HugoWingin: Logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:32:37] filterscripts = ""  (string)
+[14:32:37] 
+[14:32:37] Server Plugins
+[14:32:37] --------------
+[14:32:37]  Loading plugin: mysql
+[14:32:37]  >> plugin.mysql: R41-4 successfully loaded.
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: sscanf
+[14:32:37] 
+
+[14:32:37]  ===============================
+
+[14:32:37]       sscanf plugin loaded.     
+
+[14:32:37]    (c) 2009 Alex "Y_Less" Cole
+
+[14:32:37]    0.3d-R2 500 Players "dnee"
+
+[14:32:37]  ===============================
+
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: crashdetect
+[14:32:37]   CrashDetect v4.15.1 is OK.
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: streamer
+[14:32:37] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: Whirlpool
+[14:32:37]  
+[14:32:37]  ==================
+[14:32:37]  
+[14:32:37]   Whirlpool loaded
+[14:32:37]  
+[14:32:37]  ==================
+[14:32:37]  
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: CEFix
+[14:32:37]  =======================================
+[14:32:37]   ** Color Embed Fix for Thai language V2.0
+[14:32:37]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:32:37]  =======================================
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: discord-connector
+[14:32:37]  >> plugin.dc-connector: bot token not specified in server config.
+[14:32:37]   Failed.
+[14:32:37]  Loading plugin: MapAndreas
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: TDE
+[14:32:37] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: tsc
+[14:32:37]  >> plugin.TSConnector: v1.3 loaded.
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: regex
+[14:32:37] 
+
+[14:32:37] ______________________________________
+
+[14:32:37]  Regular Expression Plugin v0.2.1 loaded
+[14:32:37] ______________________________________
+
+[14:32:37]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:32:37] ______________________________________
+
+[14:32:37]   Loaded.
+[14:32:37]  Loading plugin: nativechecker
+[14:32:37]   Loaded.
+[14:32:37]  Loaded 11 plugins.
+
+[14:32:37] 
+[14:32:37] Filterscripts
+[14:32:37] ---------------
+[14:32:37]   Loaded 0 filterscripts.
+
+[14:32:37] Script[gamemodes/WORP.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[14:32:37] Failed to load 'gamemodes/WORP.amx' script.
+[14:32:37] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:34:28] filterscripts = ""  (string)
+[14:34:28] 
+[14:34:28] Server Plugins
+[14:34:28] --------------
+[14:34:28]  Loading plugin: mysql
+[14:34:28]  >> plugin.mysql: R41-4 successfully loaded.
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: sscanf
+[14:34:28] 
+
+[14:34:28]  ===============================
+
+[14:34:28]       sscanf plugin loaded.     
+
+[14:34:28]    (c) 2009 Alex "Y_Less" Cole
+
+[14:34:28]    0.3d-R2 500 Players "dnee"
+
+[14:34:28]  ===============================
+
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: crashdetect
+[14:34:28]   CrashDetect v4.15.1 is OK.
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: streamer
+[14:34:28] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: Whirlpool
+[14:34:28]  
+[14:34:28]  ==================
+[14:34:28]  
+[14:34:28]   Whirlpool loaded
+[14:34:28]  
+[14:34:28]  ==================
+[14:34:28]  
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: CEFix
+[14:34:28]  =======================================
+[14:34:28]   ** Color Embed Fix for Thai language V2.0
+[14:34:28]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[14:34:28]  =======================================
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: discord-connector
+[14:34:28]  >> plugin.dc-connector: bot token not specified in server config.
+[14:34:28]   Failed.
+[14:34:28]  Loading plugin: MapAndreas
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: TDE
+[14:34:28] 
+TDEditor Plugin loaded, thank you for using.
+
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: tsc
+[14:34:28]  >> plugin.TSConnector: v1.3 loaded.
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: regex
+[14:34:28] 
+
+[14:34:28] ______________________________________
+
+[14:34:28]  Regular Expression Plugin v0.2.1 loaded
+[14:34:28] ______________________________________
+
+[14:34:28]  By: Fro (c) Copyright <TBG> 2009-2011
+[14:34:28] ______________________________________
+
+[14:34:28]   Loaded.
+[14:34:28]  Loading plugin: nativechecker
+[14:34:28]   Loaded.
+[14:34:28]  Loaded 11 plugins.
+
+[14:34:29] 
+[14:34:29] Filterscripts
+[14:34:29] ---------------
+[14:34:29]   Loaded 0 filterscripts.
+
+[14:34:29]  
+[14:34:29]  
+[14:34:29]  
+[14:34:29]  ======================================= 
+[14:34:29]  |                                     | 
+[14:34:29]  |        YSI version 3.09.0684        | 
+[14:34:29]  |        By Alex "Y_Less" Cole        | 
+[14:34:29]  |                                     | 
+[14:34:29]  ======================================= 
+[14:34:29]  
+[14:34:29]  
+[14:34:29]  
+[14:34:29] [SQL] Connection to "127.0.0.1" passed!
+[14:34:35] [connection] 124.121.173.178:59475 requests connection cookie.
+[14:34:35] 14:34:00
+[14:34:35] ------------------------------------------------------------------------------
+[14:34:35] |        The Land Cityy - Started!		|
+[14:34:35] ------------------------------------------------------------------------------
+[14:34:35] 
+----------------------------------
+[14:34:35]  Discord Console by Inferno
+[14:34:35] ----------------------------------
+
+[14:34:35] Number of vehicle models: 0
+[14:34:35] Setting server password to: "268426"
+[14:34:35] hostname = "SAMP : The Land City"  (string)
+[14:34:35] [MYSQL]: Server Settings Loaded.
+[14:34:35] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[14:34:35] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 3 Products have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[14:34:36] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[14:34:36] [connection] incoming connection: 124.121.173.178:59475 id: 0
+[14:35:02] [connection] 124.121.173.178:54268 requests connection cookie.
+[14:35:03] [connection] incoming connection: 124.121.173.178:54268 id: 0
+[14:35:03] [join] HugoWingin has joined the server (0:124.121.173.178)
+[14:35:07] HugoWingin: Logged in.
+[14:35:49] [connection] 184.22.150.198:45627 requests connection cookie.
+[14:35:49] [connection] incoming connection: 184.22.150.198:45627 id: 1
+[14:35:50] [join] Michel_Moore has joined the server (1:184.22.150.198)
+[14:35:50] [part] Michel_Moore has left the server (1:2)
+[14:35:59] [connection] 103.43.76.196:5105 requests connection cookie.
+[14:36:00] [connection] incoming connection: 103.43.76.196:5105 id: 1
+[14:36:00] [join] Bank has joined the server (1:103.43.76.196)
+[14:36:08] Bank: Logged in.
+[14:36:40] [connection] 184.22.150.198:48004 requests connection cookie.
+[14:36:40] [connection] incoming connection: 184.22.150.198:48004 id: 2
+[14:36:41] [join] Michel has joined the server (2:184.22.150.198)
+[14:36:56] Michel: Logged in.
+[14:37:05] [debug] OnPlayerClickPlayer(0, 0, 0)
+[14:39:20] [debug] OnPlayerClickPlayer(0, 2, 0)
+[14:39:29] [debug] OnPlayerClickPlayer(0, 2, 0)
+[14:40:57] [debug] OnPlayerClickPlayer(0, 1, 0)
+[14:41:51] [debug] OnPlayerClickPlayer(0, 1, 0)
+[14:42:18] Vehicle ID: 30 just travelled more than 15 meters with no one in it! Resetting its position.
+[14:42:21] [debug] OnPlayerClickPlayer(0, 1, 0)
+[14:43:33] HugoWingin: Logout.
+[14:43:34] Michel: Logout.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:08:47] filterscripts = ""  (string)
+[15:08:47] 
+[15:08:47] Server Plugins
+[15:08:47] --------------
+[15:08:47]  Loading plugin: mysql
+[15:08:47]  >> plugin.mysql: R41-4 successfully loaded.
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: sscanf
+[15:08:47] 
+
+[15:08:47]  ===============================
+
+[15:08:47]       sscanf plugin loaded.     
+
+[15:08:47]    (c) 2009 Alex "Y_Less" Cole
+
+[15:08:47]    0.3d-R2 500 Players "dnee"
+
+[15:08:47]  ===============================
+
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: crashdetect
+[15:08:47]   CrashDetect v4.15.1 is OK.
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: streamer
+[15:08:47] 
+
+*** Streamer Plugin v2.7.8 by Incognito loaded ***
+
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: Whirlpool
+[15:08:47]  
+[15:08:47]  ==================
+[15:08:47]  
+[15:08:47]   Whirlpool loaded
+[15:08:47]  
+[15:08:47]  ==================
+[15:08:47]  
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: CEFix
+[15:08:47]  =======================================
+[15:08:47]   ** Color Embed Fix for Thai language V2.0
+[15:08:47]   Copyright 2018 by Ak-kawit "Aktah" Tahae
+[15:08:47]  =======================================
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: discord-connector
+[15:08:47]  >> plugin.dc-connector: bot token not specified in server config.
+[15:08:47]   Failed.
+[15:08:47]  Loading plugin: MapAndreas
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: TDE
+[15:08:47] 
+TDEditor Plugin loaded, thank you for using.
+
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: tsc
+[15:08:47]  >> plugin.TSConnector: v1.3 loaded.
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: regex
+[15:08:47] 
+
+[15:08:47] ______________________________________
+
+[15:08:47]  Regular Expression Plugin v0.2.1 loaded
+[15:08:47] ______________________________________
+
+[15:08:47]  By: Fro (c) Copyright <TBG> 2009-2011
+[15:08:47] ______________________________________
+
+[15:08:47]   Loaded.
+[15:08:47]  Loading plugin: nativechecker
+[15:08:47]   Loaded.
+[15:08:47]  Loaded 11 plugins.
+
+[15:08:47] 
+[15:08:47] Filterscripts
+[15:08:47] ---------------
+[15:08:47]   Loaded 0 filterscripts.
+
+[15:08:48]  
+[15:08:48]  
+[15:08:48]  
+[15:08:48]  ======================================= 
+[15:08:48]  |                                     | 
+[15:08:48]  |        YSI version 3.09.0684        | 
+[15:08:48]  |        By Alex "Y_Less" Cole        | 
+[15:08:48]  |                                     | 
+[15:08:48]  ======================================= 
+[15:08:48]  
+[15:08:48]  
+[15:08:48]  
+[15:08:48] [SQL] Connection to "127.0.0.1" passed!
+[15:08:55] 15:08:00
+[15:08:55] ------------------------------------------------------------------------------
+[15:08:55] |        The Land Cityy - Started!		|
+[15:08:55] ------------------------------------------------------------------------------
+[15:08:55] 
+----------------------------------
+[15:08:55]  Discord Console by Inferno
+[15:08:55] ----------------------------------
+
+[15:08:55] Number of vehicle models: 0
+[15:08:55] Setting server password to: "268426"
+[15:08:55] hostname = "SAMP : The Land City"  (string)
+[15:08:55] [MYSQL]: Server Settings Loaded.
+[15:08:55] [MYSQL]: 1 Objects have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 2 Factions have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 43 Cars have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 1 Bizs have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 5 Entrances have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 0 Jobs have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 3 Products have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 0 Houses have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 1 Fields have been successfully loaded from the database.
+[15:08:55] [MYSQL]: 0 Plants have been successfully loaded from the database.
+[15:09:16] [connection] 183.88.194.228:52498 requests connection cookie.
+[15:09:17] [connection] incoming connection: 183.88.194.228:52498 id: 0
+[15:09:20] [connection] 124.121.173.178:50360 requests connection cookie.
+[15:09:21] [connection] incoming connection: 124.121.173.178:50360 id: 0
+[15:09:21] [join] Hugo_Wingin has joined the server (0:124.121.173.178)
+[15:09:21] [part] Hugo_Wingin has left the server (0:2)
+[15:09:27] [connection] incoming connection: 183.88.194.228:60305 id: 0
+[15:09:51] [connection] 124.121.173.178:62912 requests connection cookie.
+[15:09:52] [connection] incoming connection: 124.121.173.178:62912 id: 0
+[15:09:53] [join] HugoWingin has joined the server (0:124.121.173.178)
+[15:09:56] HugoWingin: Logged in.
+[15:10:03] Server password has been removed.

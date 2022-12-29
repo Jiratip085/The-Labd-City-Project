@@ -2,8 +2,7 @@
 
 new CheckEnterPointDelivery[MAX_PLAYERS];
 new StartJobNewpaper[MAX_PLAYERS];
-
-new NewsPrice = random(100) + 25;
+new LoopJobNewpaper[MAX_PLAYERS];
 
 new Float:Paper[15][3] =
 {
@@ -63,18 +62,26 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
             if(Character[playerid][Job] != 1)
                 return SendClientMessage(playerid, COLOR_GREY, "- คุณไม่ได้ทำอาชีพ Newspaper Delivery");
 
-            if(StartJobNewpaper[playerid] == 0)
+            if(LoopJobNewpaper[playerid] == 0 && StartJobNewpaper[playerid] == 1)
             {
-                
+                OnePlayAnim(playerid, "carry", "liftup05", 4.0, 0, 0, 0, 0, 0);
+                StartJobNewpaper[playerid] = 1;
+                LoopJobNewpaper[playerid] = 1;
+            }
+            if(StartJobNewpaper[playerid] == 0 && LoopJobNewpaper[playerid] == 0)
+            {
+                OnePlayAnim(playerid, "carry", "liftup05", 4.0, 0, 0, 0, 0, 0);
                 SendClientMessage(playerid, COLOR_GREY, "- ใช้ Bike ในการไปส่งหนังสือพิมพ์");
                 GameTextForPlayer(playerid, "~w~Newspaper Delivery~G~ Start", 3000, 1) ;
                 StartJobNewpaper[playerid] = 1;
+                LoopJobNewpaper[playerid] = 1;
             }
-            else if(StartJobNewpaper[playerid] == 1)
+            else if(StartJobNewpaper[playerid] == 1 && LoopJobNewpaper[playerid] == 1)
             {
                 DisablePlayerCheckpoint(playerid);
                 GameTextForPlayer(playerid, "~w~Newspaper Delivery~r~ Cancel", 3000, 1) ;
                 StartJobNewpaper[playerid] = 0;
+                LoopJobNewpaper[playerid] = 0;
                 CheckEnterPointDelivery[playerid] = 0;
             }
         }
@@ -84,7 +91,7 @@ hook OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 StartPlayerCheckPointDelivery1(playerid)
 {
     new rand = random(sizeof(Paper));
-    
+    PlayerPlaySound(playerid, 1138, 0.0, 0.0, 0.0);
     SetPlayerCheckpoint(playerid, Paper[rand][0], Paper[rand][1], Paper[rand][2], 2.0);
     CheckEnterPointDelivery[playerid] = 1;
     return 1;
@@ -95,7 +102,9 @@ hook OnPlayerEnterCheckpoint(playerid)
 {
     if(Character[playerid][Job] == 1)
     {
-        new string[128]);
+        new 
+        NewsPrice = random(50) + 50,
+        string[128];
         DisablePlayerCheckpoint(playerid);
         
         if (IsPlayerInAnyVehicle(playerid))
@@ -109,13 +118,15 @@ hook OnPlayerEnterCheckpoint(playerid)
             CheckEnterPointDelivery[playerid] = 0;
             GivePlayerMoneyEx(playerid, NewsPrice);
 
-            ApplyAnimation(playerid, "ryder", "van_throw", 4.1, 0, 0, 0, 0, 0);
-            ApplyAnimation(playerid, "null", "", 4.1, 0, 0, 0, 0, 0);
-            ApplyAnimation(playerid, "ryder", "van_throw", 4.1, 0, 0, 0, 0, 0);
+            OnePlayAnim(playerid, "grenade", "weapon_throwu", 4.0, 0, 0, 0, 0, 0);
+            
 
-            format(string, sizeof(string), "~g~Pay~n~~w~ %d", FormatNumber(NewsPrice));
-			PlayerPlaySound(playerid, 1138, 0.0, 0.0, 0.0);
+            format(string, sizeof(string), "~g~Pay Check~n~~w~ %d", NewsPrice);
             GameTextForPlayer(playerid, string, 3000, 1);
+
+			PlayerPlaySoundEx(playerid, 6401);
+            StartJobNewpaper[playerid] = 1;
+            LoopJobNewpaper[playerid] = 0;
             return 1;
         }
 		
@@ -127,7 +138,10 @@ hook OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
 {
     if(Character[playerid][Job] == 1 && GetVehicleModel(vehicleid) == 509)
     {
-        if(StartJobNewpaper[playerid] == 1 && CheckEnterPointDelivery[playerid] == 0)
+        if(LoopJobNewpaper[playerid] == 0)
+            return 1;
+
+        if(StartJobNewpaper[playerid] == 1 && LoopJobNewpaper[playerid] == 1 && CheckEnterPointDelivery[playerid] == 0)
         {
             StartPlayerCheckPointDelivery1(playerid);
             GameTextForPlayer(playerid, "~w~Newspaper Delivery~y~ Mark", 3000, 1) ;

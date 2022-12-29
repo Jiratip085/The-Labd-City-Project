@@ -2262,7 +2262,7 @@ hook OnPlayerClickPlayer(playerid, clickedplayerid, source)
 	
 	if(Account[playerid][Admin] >= 1) 
 	{
-		Dialog_Show(playerid, ADMIN_MENU, DIALOG_STYLE_LIST, "{FFFFFF}", "{FFFFFF}Name: %s\n- Spec\n- Gethere\n- Goto\n- Revive\n- Fix Mapbug\n- Set Player\n- Kick\n- Ban\n- Check Stats\n- Check Afk\n- Send Message To\n- Mute\n- UnMute\n- Freeze\n- UnFreeze", "Select", "Cancel", GetRoleplayName(clickedplayerid));
+		Dialog_Show(playerid, ADMIN_MENU, DIALOG_STYLE_LIST, "{FFFFFF}", "{FFFFFF}Name: %s\n- Spec\n- Gethere\n- Goto\n- Revive\n- Fix Mapbug\n- Kick\n- Ban\n- Check Stats\n- Check Afk\n- Send Message To\n- Mute\n- UnMute\n- Freeze\n- UnFreeze", "Select", "Cancel", GetRoleplayName(clickedplayerid));
 		Character[playerid][AdminID] = clickedplayerid;	
 	}
 	return 1;
