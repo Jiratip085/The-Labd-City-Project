@@ -1,1 +1,0 @@
-[19/11/2016, 14:42:18] RCON login attempt failed from "127.0.0.1".
