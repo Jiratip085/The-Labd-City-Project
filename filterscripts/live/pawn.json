@@ -1,0 +1,19 @@
+{
+	"user": "srysgag",
+	"repo": "live",
+	"entry": "live.pwn",
+	"output": "../live.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"pawn-lang/YSI-Includes"
+	],
+	"local": true,
+	"builds": [
+		{
+			"name": "main",
+			"includes": [
+				"../../legacy"
+			]
+		}
+	]
+}

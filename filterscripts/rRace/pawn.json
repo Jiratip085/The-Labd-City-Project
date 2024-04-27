@@ -1,0 +1,19 @@
+{
+	"user": "srysgag",
+	"repo": "rRace",
+	"entry": "rRace.pwn",
+	"output": "../rRace.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"urShadow/Pawn.CMD"
+	],
+	"local": true,
+	"builds": [
+		{
+			"name": "main",
+			"includes": [
+				"../../legacy"
+			]
+		}
+	]
+}
